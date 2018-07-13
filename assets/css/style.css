@@ -9,7 +9,7 @@ Main content border color: #dddddd
 */
 
 
-.container {
+.body {
     background-image: url("../images/background.png");
     margin: 0;
     padding-bottom: 120px;
