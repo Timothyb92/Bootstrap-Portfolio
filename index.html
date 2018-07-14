@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
     <script src="main.js"></script>
 </head>
-<body>
+<body class="site">
     <nav class="navbar" id="navbar">
         <div class="container" id="navDiv">
             <h1 class="navbar-text">Tim Bedsole</h1>
@@ -27,7 +27,7 @@
             </ul>
         </div>
     </nav>
-    <div class="container">
+    <div class="container site-content">
         <section>
             <header>
                 <div class="row">
@@ -58,8 +58,14 @@
         </section>
     </div>
     <footer>
-        <div class="container">
-            <span>Copyright &copy;</span>
+        <div class="container" id="footerContainer">
+            <div class="row">
+                <div class="offset-md-5"></div>
+                <div class="col-md-2">
+                    <p id="footerP">Copyright &copy;</p>
+                </div>
+                <div class="col-md-5"></div>
+            </div>
         </div>
     </footer>
 </body>
