@@ -101,3 +101,13 @@ main img {
       margin-bottom: 0;
       padding-top: 20px;
   }
+
+  button {
+      background-color: #4aaaa5;
+      color: #fff;
+      margin-bottom: 20px;
+  }
+
+  form {
+      color: #777;
+  }

@@ -30,17 +30,27 @@
     <main>
         <div class="container site-content">
             <article>
-                <header>
-                    <h2>Contact</h2>
-                </header>
+                <div class="row">
+                    <div class="col-md-12">
+                        <header>
+                            <h2>Contact</h2>
+                        </header>
+                    </div>
+                </div>
                 <form>
-                    <p>Name</p>
-                    <input name="name" type="text" value="Your Name">
-                    <p>Email</p>
-                    <input type="text" name="email" value="Email@example.com">
-                    <p>Message</p>
-                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
-                    <button>Submit</button>
+                    <div class="form-group">
+                        <label for="nameInput">Name</label>
+                        <input name="name" type="text" value="Your Name" id="nameInput" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="emailInput">Email</label>
+                        <input type="email" name="email" value="Email@example.com" id="emailInput" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="messageTextArea">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10" id="messageTextArea" class="form-control"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Submit</button>
                 </form>
             </article>
         </div>
