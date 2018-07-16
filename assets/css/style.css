@@ -58,14 +58,19 @@ p {
     border-color: #eee;
 }
 
-main img {
+
+/* main img {
     height: 320px;
     widows: 320px;;
-}
+
+    Commented out because it was breaking responsiveness
+} */
 
 .redBorder {
     border: red 2px solid;
 }
+
+
 
 /* Copied from https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/ */
 .site {
@@ -78,6 +83,8 @@ main img {
     flex: 1;
   }
   /* ******************************************************************************** */
+
+
 
   footer {
       margin-top: 50px;
@@ -108,13 +115,14 @@ main img {
 
   .portfolioImg {
       position: relative;
+      padding: 0;
   }
 
   .centered-bottom {
       position: absolute;
       background-color: #4aaaa5;
       color: #fff;
-      padding: 10px;
+      padding: 10px 0;
       position: absolute;
       bottom: 50px;
   }
@@ -125,7 +133,19 @@ main img {
 
   li {
       padding: 8px !important;
-  }
+  
+    }
+
+    .portfolioImg {
+        margin: 0 20px 20px 20px;
+    }
+
+
+
+
+
+
+
 
   @media only screen and (max-width: 767px) {
     .navbar-header {
