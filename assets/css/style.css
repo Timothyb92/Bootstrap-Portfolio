@@ -13,15 +13,9 @@ body {
     background-image: url("../images/background.png");
 }
 
-#navbar {
-    background-color: #fff;
-    padding: 0;
-    margin-bottom: 30px;
-}
-
-.navbar-text {
+.navbar-brand {
     background-color: #4aaaa5;
-    color: #fff;
+    color: #fff !important;
     margin: 0;
     padding: 20px;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -132,3 +126,14 @@ main img {
   li {
       padding: 8px !important;
   }
+
+  @media only screen and (max-width: 767px) {
+    .navbar-header {
+        background-color: #4aaaa5;
+        width: 100%;
+        text-align: center;
+      }
+    .nav {
+        margin: 0 auto;
+    }
+}
