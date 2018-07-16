@@ -11,20 +11,26 @@
     <script src="main.js"></script>
 </head>
 <body class="site">
-    <nav class="navbar" id="navbar">
+    <nav class="navbar navbar-expand-md" id="navbar" style="flex-direction:horizontal;">
         <div class="container" id="navDiv">
-            <h1 class="navbar-text">Tim Bedsole</h1>
-            <ul class="nav">
-                <li id="aboutAnchor" class="nav-item">
-                    <a href="index.html" class="nav-link">About</a>
-                </li>
-                <li id="portfolioAnchor" class="nav-item">
-                    <a href="portfolio.html" class="nav-link">Portfolio</a>
-                </li>
-                <li id="contactAnchor" class="nav-item">
-                    <a href="contact.html" class="nav-link">Contact</a>
-                </li>
-            </ul>
+            <!-- <div class="row"> -->
+                <!-- <div class="col-md-3"> -->
+                    <h1 class="navbar-text">Tim Bedsole</h1>
+                <!-- </div> -->
+                <!-- <div class="offset-md-4 col md-5"> -->
+                    <ul class="navbar-nav w-100 justify-content-end">
+                        <li id="aboutAnchor" class="nav-item">
+                            <a href="index.html" class="nav-link">About</a>
+                        </li>
+                        <li id="portfolioAnchor" class="nav-item">
+                            <a href="portfolio.html" class="nav-link">Portfolio</a>
+                        </li>
+                        <li id="contactAnchor" class="nav-item">
+                            <a href="contact.html" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                <!-- </div> -->
+            <!-- </div> -->
         </div>
     </nav>
     <div class="container site-content">
@@ -60,11 +66,10 @@
     <footer>
         <div class="container" id="footerContainer">
             <div class="row">
-                <div class="offset-md-5"></div>
-                <div class="col-md-2">
+                <div class="offset-sm-5 col-sm-3">
                     <p id="footerP">Copyright &copy;</p>
                 </div>
-                <div class="col-md-5"></div>
+                <div class="col-sm-4"></div>
             </div>
         </div>
     </footer>
