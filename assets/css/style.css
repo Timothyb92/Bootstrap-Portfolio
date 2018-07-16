@@ -124,3 +124,11 @@ main img {
       position: absolute;
       bottom: 50px;
   }
+
+  ul {
+      flex-direction: row !important;
+  }
+
+  li {
+      padding: 8px !important;
+  }
