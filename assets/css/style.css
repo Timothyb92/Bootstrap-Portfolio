@@ -26,6 +26,12 @@ body {
 a {
     color: #777;
     text-decoration: none;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+}
+
+.portfolioAnchor {
+    padding: 0 !important;
 }
 
 .container {
@@ -159,4 +165,8 @@ p {
         .nav {
             margin: 0 auto;
         }
+    }
+
+    #navContainer {
+        margin-bottom: 50px;
     }
