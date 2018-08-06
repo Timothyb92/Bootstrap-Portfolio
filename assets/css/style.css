@@ -103,10 +103,15 @@ p {
     background-color: #666;
   }
 
-  #footerP {
+  footer a {
+    color: inherit;
+  }
+
+  #footerP p {
       color: #bbb;
       margin-bottom: 0;
       padding-top: 20px;
+      float: left;
   }
 
   button {
