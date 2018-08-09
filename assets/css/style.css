@@ -38,7 +38,7 @@ a {
     background-color: #fff;
 }
 
-h2 {
+h2, h3 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     border-bottom: solid 2px #ddd;
     color: #4aaaa5;
@@ -164,7 +164,13 @@ p {
     .img-fluid {
         width: 100%;
         height: auto;
+        padding: 15px 0px;
     }
+
+    .portfolioButtons {
+        padding-top: 30px;
+        padding-bottom: 20px
+      }
     
     
     @media only screen and (max-width: 767px) {
