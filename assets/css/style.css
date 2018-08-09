@@ -157,8 +157,14 @@ p {
         margin-right: 20px;
     }
 
+    .marginTop {
+        margin-top: 50px;
+    }
     
-    
+    .img-fluid {
+        width: 100%;
+        height: auto;
+    }
     
     
     @media only screen and (max-width: 767px) {
